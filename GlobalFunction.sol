@@ -1,5 +1,3 @@
-
-
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.9;
 
@@ -19,5 +17,4 @@ contract GlobalFunctions {
         if (input < 5) revert("input less than 5, try again");
         return input;
     }
-
 }
